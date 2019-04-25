@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.summary  = 'A tool exchange json to model'
   s.homepage = 'https://github.com/yuyuepeng/ZSSModel'
-  s.social_media_url = 'https://twitter.com/AFNetworking'
+  s.social_media_url = 'https://weibo.com/u/1374742812'
   s.authors  = { 'yuyuepeng' => 'fyxsyypbj@163.com' }
   s.source   = { :git => 'https://github.com/yuyuepeng/ZSSModel.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
-  s.public_header_files = 'ZSSModel/ZSSModel.h'
-  s.source_files = 'ZSSModel/ZSSModel.h'
+  #s.public_header_files = 'ZSSModel/ZSSModel.h'
+  s.source_files = 'ZSSModel/*'
 
 end
