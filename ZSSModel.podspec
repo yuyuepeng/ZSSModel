@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/yuyuepeng/ZSSModel.git', :tag => s.version }
   s.requires_arc = true
   s.platform     = :ios, "9.0"
-  #s.public_header_files = 'ZSSModel/ZSSModel.h'
   s.source_files = "ZSSModel/**/*.{h,m}"
 
 end
