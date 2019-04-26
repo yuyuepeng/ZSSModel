@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1072009227292C8002D6D18 /* ZSSModel+extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1072008227292C8002D6D18 /* ZSSModel+extentions.m */; };
 		C1931E1E22714EB20046737D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E1D22714EB20046737D /* AppDelegate.m */; };
 		C1931E2122714EB20046737D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E2022714EB20046737D /* ViewController.m */; };
 		C1931E2422714EB20046737D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1931E2222714EB20046737D /* Main.storyboard */; };
@@ -17,6 +18,12 @@
 		C1931E4122714EB30046737D /* ZSSModelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E4022714EB30046737D /* ZSSModelDemoUITests.m */; };
 		C1931E5622714FAC0046737D /* ZSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E5522714FAC0046737D /* ZSSModel.m */; };
 		C1931E5A2271500B0046737D /* YYPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E592271500B0046737D /* YYPModel.m */; };
+		C1931E5E2271A7420046737D /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E5C2271A7420046737D /* Messages.framework */; };
+		C1931E5F2271A7420046737D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E5D2271A7420046737D /* MessageUI.framework */; };
+		C1931E612271A7590046737D /* libAWDProtobufFacetimeiMessage.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E602271A7590046737D /* libAWDProtobufFacetimeiMessage.tbd */; };
+		C1931E652271A7640046737D /* libobjc-trampolines.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E622271A7640046737D /* libobjc-trampolines.tbd */; };
+		C1931E662271A7640046737D /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E632271A7640046737D /* libobjc.A.tbd */; };
+		C1931E672271A7640046737D /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931E642271A7640046737D /* libobjc.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1072007227292C8002D6D18 /* ZSSModel+extentions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSSModel+extentions.h"; sourceTree = "<group>"; };
+		C1072008227292C8002D6D18 /* ZSSModel+extentions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZSSModel+extentions.m"; sourceTree = "<group>"; };
 		C1931E1922714EB20046737D /* ZSSModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSSModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1931E1C22714EB20046737D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1931E1D22714EB20046737D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +66,12 @@
 		C1931E5522714FAC0046737D /* ZSSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSModel.m; sourceTree = "<group>"; };
 		C1931E582271500B0046737D /* YYPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPModel.h; sourceTree = "<group>"; };
 		C1931E592271500B0046737D /* YYPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPModel.m; sourceTree = "<group>"; };
+		C1931E5C2271A7420046737D /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		C1931E5D2271A7420046737D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C1931E602271A7590046737D /* libAWDProtobufFacetimeiMessage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufFacetimeiMessage.tbd; path = usr/lib/libAWDProtobufFacetimeiMessage.tbd; sourceTree = SDKROOT; };
+		C1931E622271A7640046737D /* libobjc-trampolines.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libobjc-trampolines.tbd"; path = "usr/lib/libobjc-trampolines.tbd"; sourceTree = SDKROOT; };
+		C1931E632271A7640046737D /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
+		C1931E642271A7640046737D /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1931E652271A7640046737D /* libobjc-trampolines.tbd in Frameworks */,
+				C1931E662271A7640046737D /* libobjc.A.tbd in Frameworks */,
+				C1931E672271A7640046737D /* libobjc.tbd in Frameworks */,
+				C1931E612271A7590046737D /* libAWDProtobufFacetimeiMessage.tbd in Frameworks */,
+				C1931E5E2271A7420046737D /* Messages.framework in Frameworks */,
+				C1931E5F2271A7420046737D /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 				C1931E3422714EB30046737D /* ZSSModelDemoTests */,
 				C1931E3F22714EB30046737D /* ZSSModelDemoUITests */,
 				C1931E1A22714EB20046737D /* Products */,
+				C1931E5B2271A7420046737D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +167,8 @@
 			children = (
 				C1931E5422714FAC0046737D /* ZSSModel.h */,
 				C1931E5522714FAC0046737D /* ZSSModel.m */,
+				C1072007227292C8002D6D18 /* ZSSModel+extentions.h */,
+				C1072008227292C8002D6D18 /* ZSSModel+extentions.m */,
 			);
 			path = ZSSModel;
 			sourceTree = SOURCE_ROOT;
@@ -156,6 +180,19 @@
 				C1931E592271500B0046737D /* YYPModel.m */,
 			);
 			path = YYPModel;
+			sourceTree = "<group>";
+		};
+		C1931E5B2271A7420046737D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1931E622271A7640046737D /* libobjc-trampolines.tbd */,
+				C1931E632271A7640046737D /* libobjc.A.tbd */,
+				C1931E642271A7640046737D /* libobjc.tbd */,
+				C1931E602271A7590046737D /* libAWDProtobufFacetimeiMessage.tbd */,
+				C1931E5C2271A7420046737D /* Messages.framework */,
+				C1931E5D2271A7420046737D /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +328,7 @@
 				C1931E2122714EB20046737D /* ViewController.m in Sources */,
 				C1931E2C22714EB30046737D /* main.m in Sources */,
 				C1931E5622714FAC0046737D /* ZSSModel.m in Sources */,
+				C1072009227292C8002D6D18 /* ZSSModel+extentions.m in Sources */,
 				C1931E1E22714EB20046737D /* AppDelegate.m in Sources */,
 				C1931E5A2271500B0046737D /* YYPModel.m in Sources */,
 			);

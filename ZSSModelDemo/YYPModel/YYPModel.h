@@ -11,6 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YYPModel : ZSSModel
+    
+@property(nonatomic, copy) NSString *name;
+    
+@property(nonatomic, copy) NSString *width;
+
+@property(nonatomic, copy) NSString *height;
 
 @end
 
