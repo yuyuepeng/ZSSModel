@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'ZSSModel'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.license  = 'MIT'
   s.summary  = 'A tool exchange json to model'
   s.homepage = 'https://github.com/yuyuepeng/ZSSModel'
