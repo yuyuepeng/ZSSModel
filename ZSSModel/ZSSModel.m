@@ -31,7 +31,7 @@
             NSString * propertyAttribute = [NSString stringWithCString:property_getAttributes(property) encoding:NSUTF8StringEncoding];
             [attributes addObject:propertyAttribute];
         }
-        free(properties);
+        free(properties);   
         for (NSString *key in keys) {
             if ([dict objectForKey:key] != nil) {
                 [self setValue:[dict valueForKey:key] forKey:key];

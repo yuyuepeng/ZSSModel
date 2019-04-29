@@ -23,6 +23,8 @@
     for (YYPModel *model in models) {
         NSLog(@"%@",model.name);
     }
+    NSArray *arr = [YYPModel zss_DictArrayWithModelArray:models];
+    NSLog(@"%@,dmsmd",arr);
     // Do any additional setup after loading the view.
 }
 
