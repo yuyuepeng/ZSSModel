@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1072009227292C8002D6D18 /* ZSSModel+extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1072008227292C8002D6D18 /* ZSSModel+extentions.m */; };
+		C136E9782277E6B800A18CB8 /* YYPModel+exchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C136E9772277E6B800A18CB8 /* YYPModel+exchangeMethod.m */; };
 		C1931E1E22714EB20046737D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E1D22714EB20046737D /* AppDelegate.m */; };
 		C1931E2122714EB20046737D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E2022714EB20046737D /* ViewController.m */; };
 		C1931E2422714EB20046737D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1931E2222714EB20046737D /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		C1072007227292C8002D6D18 /* ZSSModel+extentions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSSModel+extentions.h"; sourceTree = "<group>"; };
 		C1072008227292C8002D6D18 /* ZSSModel+extentions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZSSModel+extentions.m"; sourceTree = "<group>"; };
+		C136E9762277E6B800A18CB8 /* YYPModel+exchangeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYPModel+exchangeMethod.h"; sourceTree = "<group>"; };
+		C136E9772277E6B800A18CB8 /* YYPModel+exchangeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYPModel+exchangeMethod.m"; sourceTree = "<group>"; };
 		C1931E1922714EB20046737D /* ZSSModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSSModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1931E1C22714EB20046737D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1931E1D22714EB20046737D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 			children = (
 				C1931E582271500B0046737D /* YYPModel.h */,
 				C1931E592271500B0046737D /* YYPModel.m */,
+				C136E9762277E6B800A18CB8 /* YYPModel+exchangeMethod.h */,
+				C136E9772277E6B800A18CB8 /* YYPModel+exchangeMethod.m */,
 			);
 			path = YYPModel;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C136E9782277E6B800A18CB8 /* YYPModel+exchangeMethod.m in Sources */,
 				C1931E2122714EB20046737D /* ViewController.m in Sources */,
 				C1931E2C22714EB30046737D /* main.m in Sources */,
 				C1931E5622714FAC0046737D /* ZSSModel.m in Sources */,

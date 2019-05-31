@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray *)zss_DictArrayWithModelArray:(NSArray *)modelArray;
 
++ (NSDictionary *)dictFromModel:(id)model;
+
 @end
 
 NS_ASSUME_NONNULL_END
