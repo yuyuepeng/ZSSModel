@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YYPModel (exchangeMethod)
 
++ (void)sayIloveyouToXiaoxiao;
 
 @end
 

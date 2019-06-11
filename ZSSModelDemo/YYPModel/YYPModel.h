@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, copy) NSString *height;
 
++ (void)sayHelloToXiaoxiao;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -28,6 +28,27 @@
     }];
     return dictARR;
 }
++ (NSArray *)zss_modelArrayWithJson:(id)json {
+    NSMutableArray *models = [NSMutableArray array];
+    if (![json isEqual:[NSNull null]]||![json isEqual:NULL]) {
+        NSError *error = nil;
+        NSData *jsonData = [json dataUsingEncoding:NSUTF8StringEncoding];
+
+        NSArray *jsonObject = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                        options:NSJSONReadingAllowFragments
+                                                          error:nil];
+        if (jsonObject != nil && error == nil){
+            [jsonObject enumerateObjectsUsingBlock:^(NSDictionary * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                id model = [[self alloc] initWithDict:jsonObject[idx]];
+                [models addObject:model];
+            }];
+        }else{// 解析错误
+            
+        }
+       
+    }
+    return models;
+}
 + (NSDictionary *)dictFromModel:(id)model {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];//
 //    NSArray *allkeys = [model allKeys];

@@ -10,4 +10,8 @@
 
 @implementation YYPModel
 
++ (void)sayHelloToXiaoxiao {
+    NSLog(@"hello xiaoxiao");
+}
+
 @end
