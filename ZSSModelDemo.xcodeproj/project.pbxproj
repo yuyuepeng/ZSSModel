@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1060B1722B0A757002DA11D /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = C1060B1622B0A757002DA11D /* model.json */; };
 		C1072009227292C8002D6D18 /* ZSSModel+extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1072008227292C8002D6D18 /* ZSSModel+extentions.m */; };
-		C115FEF422AFB3BC0018B79C /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = C115FEF322AFB3BC0018B79C /* model.json */; };
+		C115FEF422AFB3BC0018B79C /* models.json in Resources */ = {isa = PBXBuildFile; fileRef = C115FEF322AFB3BC0018B79C /* models.json */; };
 		C136E9782277E6B800A18CB8 /* YYPModel+exchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C136E9772277E6B800A18CB8 /* YYPModel+exchangeMethod.m */; };
 		C1931E1E22714EB20046737D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E1D22714EB20046737D /* AppDelegate.m */; };
 		C1931E2122714EB20046737D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1931E2022714EB20046737D /* ViewController.m */; };
@@ -46,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1060B1622B0A757002DA11D /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 		C1072007227292C8002D6D18 /* ZSSModel+extentions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSSModel+extentions.h"; sourceTree = "<group>"; };
 		C1072008227292C8002D6D18 /* ZSSModel+extentions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZSSModel+extentions.m"; sourceTree = "<group>"; };
-		C115FEF322AFB3BC0018B79C /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		C115FEF322AFB3BC0018B79C /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
 		C136E9762277E6B800A18CB8 /* YYPModel+exchangeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYPModel+exchangeMethod.h"; sourceTree = "<group>"; };
 		C136E9772277E6B800A18CB8 /* YYPModel+exchangeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYPModel+exchangeMethod.m"; sourceTree = "<group>"; };
 		C1931E1922714EB20046737D /* ZSSModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSSModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +142,8 @@
 				C1931E1D22714EB20046737D /* AppDelegate.m */,
 				C1931E1F22714EB20046737D /* ViewController.h */,
 				C1931E2022714EB20046737D /* ViewController.m */,
-				C115FEF322AFB3BC0018B79C /* model.json */,
+				C115FEF322AFB3BC0018B79C /* models.json */,
+				C1060B1622B0A757002DA11D /* model.json */,
 				C1931E2222714EB20046737D /* Main.storyboard */,
 				C1931E2522714EB30046737D /* Assets.xcassets */,
 				C1931E2722714EB30046737D /* LaunchScreen.storyboard */,
@@ -308,8 +311,9 @@
 			files = (
 				C1931E2922714EB30046737D /* LaunchScreen.storyboard in Resources */,
 				C1931E2622714EB30046737D /* Assets.xcassets in Resources */,
+				C1060B1722B0A757002DA11D /* model.json in Resources */,
 				C1931E2422714EB20046737D /* Main.storyboard in Resources */,
-				C115FEF422AFB3BC0018B79C /* model.json in Resources */,
+				C115FEF422AFB3BC0018B79C /* models.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

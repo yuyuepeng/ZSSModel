@@ -48,7 +48,7 @@
        
     }
     return models;
-}
+} 
 + (NSDictionary *)dictFromModel:(id)model {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];//
 //    NSArray *allkeys = [model allKeys];

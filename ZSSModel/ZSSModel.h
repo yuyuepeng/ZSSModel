@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ZSSModel : NSObject
     
 - (id)initWithDict:(NSDictionary *)dict;
+
+- (id)initWithJson:(id)json;
     
 @end
 
